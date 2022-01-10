@@ -1,0 +1,371 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn {
+  border: none;
+  background: #f25f3a;
+  color: white;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  padding: 14px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 5px 32px -11px #f25f3a;
+          box-shadow: 0px 5px 32px -11px #f25f3a;
+  -webkit-transition: 150ms all ease-in-out;
+  transition: 150ms all ease-in-out;
+  border: transparent 2px solid;
+}
+
+.btn:hover {
+  opacity: .6;
+}
+
+.btn:active {
+  border-color: #f25f3a;
+  background: transparent;
+  color: #f25f3a;
+  opacity: 1;
+}
+
+.head {
+  color: #242d52;
+}
+
+.text {
+  color: #9095a7;
+}
+
+div img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  background: url(../images/bg-tablet-pattern.svg) no-repeat 856px -107px, url(../images/bg-tablet-pattern.svg) no-repeat -506px 1141px;
+  margin-bottom: 150px;
+}
+
+main nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 130px;
+  padding-block: 60px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main nav .nav-links .nav-item {
+  color: #242d52;
+  margin: 0 15px;
+  font-size: .9em;
+  cursor: pointer;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px rgba(36, 45, 82, 0.15);
+  -webkit-transition: 150ms all ease-in-out;
+  transition: 150ms all ease-in-out;
+}
+
+main nav .nav-links .nav-item:hover {
+  color: #9095a7;
+  text-shadow: none;
+}
+
+main .intro {
+  padding: 0px 130px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .intro .copy h1 {
+  font-size: 3.4em;
+}
+
+main .intro .copy p {
+  padding-right: 270px;
+  line-height: 24px;
+  margin-bottom: 45px;
+}
+
+main .features {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding: 0px 130px;
+  grid-gap: 150px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin-top: 75px;
+}
+
+main .features .right-para h1 {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+main .features .right-para p {
+  max-width: 60%;
+  line-height: 28px;
+}
+
+main .features .features-list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  padding-right: 50px;
+  margin-bottom: 25px;
+}
+
+main .features .features-list .item span {
+  background: #f25f3a;
+  color: white;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 10px 25px;
+  margin-right: 20px;
+}
+
+main .features .features-list .item h3 {
+  margin: 0;
+}
+
+main .features .features-list .item p {
+  line-height: 28px;
+}
+
+main .reviews {
+  margin-top: 110px;
+  position: relative;
+}
+
+main .reviews h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+main .reviews .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0;
+  position: relative;
+  overflow-x: auto;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+main .reviews .cards::-webkit-scrollbar {
+  display: none;
+}
+
+main .reviews .cards:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+main .reviews .cards .r-card {
+  text-align: center;
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 10px 20px;
+  min-width: 500px;
+  margin-right: 20px;
+}
+
+main .reviews .cards .r-card p {
+  line-height: 24px;
+}
+
+main .reviews .cards .r-card .dp {
+  max-width: 75px;
+  margin-inline: auto;
+  position: relative;
+  top: -25px;
+}
+
+main .reviews .reviews-btn {
+  display: block;
+  margin: 35px auto;
+}
+
+.simplify {
+  background: url(../images/bg-simplify-section-desktop.svg) bottom right, #f25f3a;
+  padding: 30px 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.simplify h1 {
+  width: 40%;
+  color: white;
+  font-weight: 500;
+  font-size: 2.5em;
+}
+
+.simplify .btn-simplify {
+  background: white;
+  color: #f25f3a;
+  -webkit-box-shadow: 0px 5px 32px -11px rgba(0, 0, 0, 0.616);
+          box-shadow: 0px 5px 32px -11px rgba(0, 0, 0, 0.616);
+}
+
+.simplify .btn-simplify:hover {
+  opacity: 1;
+  color: rgba(242, 95, 58, 0.582);
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  padding: 70px 130px;
+  background: #1d1e25;
+}
+
+footer .info {
+  grid-column: span 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .info .social-links i {
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+}
+
+footer .info .social-links i:hover {
+  color: #f25f3a;
+}
+
+footer .f-links {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 5;
+  grid-column: 4 / 9;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 90px;
+          column-gap: 90px;
+}
+
+footer .f-links span {
+  color: white;
+  cursor: pointer;
+  line-height: 40px;
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+}
+
+footer .f-links span:hover {
+  color: #f25f3a;
+}
+
+footer .last {
+  grid-column: -4 / -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+footer .last .form .btn {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+footer .last .form input {
+  outline: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  font-family: "Be Vietnam Pro", sans-serif;
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+}
+
+footer .last .form input ::-webkit-input-placeholder {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+footer .last .form input :-ms-input-placeholder {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+footer .last .form input ::-ms-input-placeholder {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+footer .last .form input ::placeholder {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+footer .last .form input:focus {
+  border-color: #f25f3a;
+}
+
+footer .last span {
+  color: #9095a7;
+  font-size: .8em;
+}
+/*# sourceMappingURL=style.css.map */
